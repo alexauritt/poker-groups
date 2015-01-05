@@ -10,7 +10,7 @@ alex = Player.create(first_name: 'Alex', last_name: 'Auritt', email: 'alex@examp
 polly = Player.create(first_name: 'Polly', last_name: 'Auritt', email: 'polly@example.com')
 laura = Player.create(first_name: 'Laura', last_name: 'Mehlinger', email: 'laura@example.com')
 
-fun = Group.create(name: 'Fun Club')
+fun = Group.create(name: 'Sample')
 
 Membership.create(player: alex, group: fun)
 Membership.create(player: polly, group: fun)
